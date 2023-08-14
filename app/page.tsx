@@ -4,7 +4,7 @@ import { useDraw } from "@/hooks/useDraw";
 import io from 'socket.io-client';
 import { PopoverPicker } from "../components/PopoverPicker";
 import { type } from "os";
-let socket = io();
+let socket = io("http://localhost:5000");
 
 interface pageProps {}
 
